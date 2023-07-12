@@ -1,0 +1,42 @@
+.poetry-sec {
+    position: relative;
+    height: 90%;
+    aspect-ratio: 1/1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.author {
+    width: 100%;
+    margin-top: 0px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.poetry-body {
+    font-weight: 400;
+    color: #222222;
+}
+
+.poetry-para {
+    width: 80%;
+    margin-top: 0px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poetry-btn {
+    position: absolute;
+    bottom: 0px;
+}
