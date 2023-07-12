@@ -18,6 +18,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F26D50;
+    border-radius: 5px;
+    border: 2px solid #222222;
+}
+
+.home-link:hover {
     background-color: #333333;
 }
 
@@ -59,3 +65,17 @@ a {
     color: white;
   }
   
+
+  @media (max-width: 1000px) {
+    .api-link {
+        /* color: #e84a5f; */
+        font-weight: 700;
+        width: 25%;
+        height: 30px;
+    }
+
+    .home-link {
+        font-size: 1.4rem;
+        width: 90%;
+    }
+}

@@ -31,3 +31,10 @@
 b {
     color: #333333;
 }
+
+@media (max-width: 1000px) {
+    .card {
+        width: 90%;
+        aspect-ratio: 1/1;
+    }
+}

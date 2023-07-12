@@ -65,3 +65,10 @@ h4 {
     background: var(--color);
     color: #fff;
   }
+
+  @media (max-width: 1000px) {
+    section {
+        width: 90%;
+        aspect-ratio: 1/1;
+    }
+}
